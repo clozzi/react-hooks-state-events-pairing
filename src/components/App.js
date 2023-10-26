@@ -18,7 +18,7 @@ function App() {
       <h2>{video.title}</h2>
       <p>{video.views} Views | Updated {video.createdAt}</p>
       <Votes />
-      {/* <Comments /> */}
+      <Comments comments={video.comments}/>
     </div>
   );
 }
